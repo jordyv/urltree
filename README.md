@@ -18,7 +18,9 @@ $ cat gau.out | urltree > urltree.out
 ## Installation
 
 ```
-go install github.com/jordyv/urltree@latest
+git clone https://github.com/jordyv/urltree.git
+cd urltree
+go build -o urltree cmd/urltree/main.go
 ```
 
 _Go 1.18 or newer needed_.
